@@ -19,6 +19,7 @@
 		E05386E62C875F5B00003D75 /* decorations-victorian.png in Resources */ = {isa = PBXBuildFile; fileRef = E05386E22C875F5B00003D75 /* decorations-victorian.png */; };
 		E05386E72C875F5B00003D75 /* terrain.png in Resources */ = {isa = PBXBuildFile; fileRef = E05386E32C875F5B00003D75 /* terrain.png */; };
 		E08D0A232C889E5300366FDB /* MSKTiled in Frameworks */ = {isa = PBXBuildFile; productRef = E08D0A222C889E5300366FDB /* MSKTiled */; };
+		E08D0A252C88A25600366FDB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E08D0A242C88A25600366FDB /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		E05386E12C875F5B00003D75 /* decorations-medieval.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "decorations-medieval.png"; sourceTree = "<group>"; };
 		E05386E22C875F5B00003D75 /* decorations-victorian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "decorations-victorian.png"; sourceTree = "<group>"; };
 		E05386E32C875F5B00003D75 /* terrain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = terrain.png; sourceTree = "<group>"; };
+		E08D0A242C88A25600366FDB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		E05386B72C875CE200003D75 = {
 			isa = PBXGroup;
 			children = (
+				E08D0A242C88A25600366FDB /* README.md */,
 				E05386C22C875CE200003D75 /* MSKTiledDemo */,
 				E05386C12C875CE200003D75 /* Products */,
 			);
@@ -168,6 +171,7 @@
 				E05386E52C875F5B00003D75 /* decorations-medieval.png in Resources */,
 				E05386E42C875F5B00003D75 /* exampleTiled.tmx in Resources */,
 				E05386D12C875CE400003D75 /* Assets.xcassets in Resources */,
+				E08D0A252C88A25600366FDB /* README.md in Resources */,
 				E05386D42C875CE400003D75 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
