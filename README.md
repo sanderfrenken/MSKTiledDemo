@@ -5,7 +5,9 @@
 
 This repository showcases the various functionalities that can be used from [MSKTiled](https://github.com/sanderfrenken/MSKTiled).
 
-All sources are written in Swift.
+For documentation on how to use MSKTiled, please refer to the project's [readme](https://github.com/sanderfrenken/MSKTiled/blob/main/README.md)
+
+## Installation
 
 ### Requirements
 
@@ -13,24 +15,20 @@ All sources are written in Swift.
 - Xcode 10.1+
 - Swift 5+
 
-### Other information
+## Other information
 
 - If you think that something is missing or would like to propose new feature, please create an issue.
 - Please feel free to ⭐️ the project. This gives confidence that you like it which stimulates further development and support 🤩
+- Looking for more SpriteKit extensions? Check out [MoreSpriteKit](https://github.com/sanderfrenken/MoreSpriteKit)
 
-### Games using MSKTiled
-
+## Games using MSKTiled
 The following games are using MSKTiled:
 
 - [Battledom](https://sites.google.com/view/battledom/home)
 - [Herodom](https://sites.google.com/view/herodom/home)
-- [Numbed](https://apps.apple.com/nl/app/numbed/id841975891)
-- [Connexx](https://apps.apple.com/nl/app/connexx/id1198001137)
-- [SlippySlide](https://apps.apple.com/nl/app/slippy-slide/id911034356)
 
 - Do you use MSKTiled in any of your applications? Please extend this list by making a PR!
 
-### License
+## License
 
 [MIT](https://opensource.org/licenses/MIT)
-

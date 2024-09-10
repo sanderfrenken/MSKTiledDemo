@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E02D897E2C90DE6500F64C5D /* decorations-medieval.png in Resources */ = {isa = PBXBuildFile; fileRef = E02D897B2C90DE6500F64C5D /* decorations-medieval.png */; };
+		E02D897F2C90DE6500F64C5D /* decorations-victorian.png in Resources */ = {isa = PBXBuildFile; fileRef = E02D897C2C90DE6500F64C5D /* decorations-victorian.png */; };
+		E02D89802C90DE6500F64C5D /* terrain.png in Resources */ = {isa = PBXBuildFile; fileRef = E02D897D2C90DE6500F64C5D /* terrain.png */; };
 		E05386C42C875CE200003D75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05386C32C875CE200003D75 /* AppDelegate.swift */; };
 		E05386CA2C875CE200003D75 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05386C92C875CE200003D75 /* GameScene.swift */; };
 		E05386CC2C875CE200003D75 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05386CB2C875CE200003D75 /* GameViewController.swift */; };
@@ -15,14 +18,14 @@
 		E05386D42C875CE400003D75 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E05386D32C875CE400003D75 /* Base */; };
 		E05386DC2C875CF400003D75 /* MSKTiled in Frameworks */ = {isa = PBXBuildFile; productRef = E05386DB2C875CF400003D75 /* MSKTiled */; };
 		E05386E42C875F5B00003D75 /* exampleTiled.tmx in Resources */ = {isa = PBXBuildFile; fileRef = E05386E02C875F5B00003D75 /* exampleTiled.tmx */; };
-		E05386E52C875F5B00003D75 /* decorations-medieval.png in Resources */ = {isa = PBXBuildFile; fileRef = E05386E12C875F5B00003D75 /* decorations-medieval.png */; };
-		E05386E62C875F5B00003D75 /* decorations-victorian.png in Resources */ = {isa = PBXBuildFile; fileRef = E05386E22C875F5B00003D75 /* decorations-victorian.png */; };
-		E05386E72C875F5B00003D75 /* terrain.png in Resources */ = {isa = PBXBuildFile; fileRef = E05386E32C875F5B00003D75 /* terrain.png */; };
 		E08D0A232C889E5300366FDB /* MSKTiled in Frameworks */ = {isa = PBXBuildFile; productRef = E08D0A222C889E5300366FDB /* MSKTiled */; };
 		E08D0A252C88A25600366FDB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E08D0A242C88A25600366FDB /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E02D897B2C90DE6500F64C5D /* decorations-medieval.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "decorations-medieval.png"; sourceTree = "<group>"; };
+		E02D897C2C90DE6500F64C5D /* decorations-victorian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "decorations-victorian.png"; sourceTree = "<group>"; };
+		E02D897D2C90DE6500F64C5D /* terrain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = terrain.png; sourceTree = "<group>"; };
 		E05386C02C875CE200003D75 /* MSKTiledDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSKTiledDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E05386C32C875CE200003D75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E05386C92C875CE200003D75 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -31,9 +34,6 @@
 		E05386D02C875CE400003D75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E05386D32C875CE400003D75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E05386E02C875F5B00003D75 /* exampleTiled.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = exampleTiled.tmx; sourceTree = "<group>"; };
-		E05386E12C875F5B00003D75 /* decorations-medieval.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "decorations-medieval.png"; sourceTree = "<group>"; };
-		E05386E22C875F5B00003D75 /* decorations-victorian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "decorations-victorian.png"; sourceTree = "<group>"; };
-		E05386E32C875F5B00003D75 /* terrain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = terrain.png; sourceTree = "<group>"; };
 		E08D0A242C88A25600366FDB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,20 +84,12 @@
 		E05386DF2C875F4E00003D75 /* tiled-resources */ = {
 			isa = PBXGroup;
 			children = (
-				E05386E82C875F6D00003D75 /* tilesheets */,
+				E02D897B2C90DE6500F64C5D /* decorations-medieval.png */,
+				E02D897C2C90DE6500F64C5D /* decorations-victorian.png */,
+				E02D897D2C90DE6500F64C5D /* terrain.png */,
 				E05386E02C875F5B00003D75 /* exampleTiled.tmx */,
 			);
 			path = "tiled-resources";
-			sourceTree = "<group>";
-		};
-		E05386E82C875F6D00003D75 /* tilesheets */ = {
-			isa = PBXGroup;
-			children = (
-				E05386E12C875F5B00003D75 /* decorations-medieval.png */,
-				E05386E22C875F5B00003D75 /* decorations-victorian.png */,
-				E05386E32C875F5B00003D75 /* terrain.png */,
-			);
-			path = tilesheets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,10 +157,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E05386E72C875F5B00003D75 /* terrain.png in Resources */,
+				E02D897E2C90DE6500F64C5D /* decorations-medieval.png in Resources */,
 				E05386CF2C875CE300003D75 /* Base in Resources */,
-				E05386E62C875F5B00003D75 /* decorations-victorian.png in Resources */,
-				E05386E52C875F5B00003D75 /* decorations-medieval.png in Resources */,
+				E02D897F2C90DE6500F64C5D /* decorations-victorian.png in Resources */,
+				E02D89802C90DE6500F64C5D /* terrain.png in Resources */,
 				E05386E42C875F5B00003D75 /* exampleTiled.tmx in Resources */,
 				E05386D12C875CE400003D75 /* Assets.xcassets in Resources */,
 				E08D0A252C88A25600366FDB /* README.md in Resources */,
