@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/sanderfrenken/MSKTiled",
       "state" : {
-        "revision" : "20e0de8b0afa9bfcb5164dc6ce097d17fe933e30",
-        "version" : "1.0.0"
+        "revision" : "851055fc04056e00b57cc7269e8520eb68da8e83",
+        "version" : "2.0.10"
       }
     }
   ],
