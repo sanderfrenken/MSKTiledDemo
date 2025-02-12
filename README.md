@@ -24,7 +24,7 @@ For documentation on how to use MSKTiled, please refer to the project's [readme]
 ## Games using MSKTiled
 The following games are using MSKTiled:
 
-- [Battledom](https://sites.google.com/view/battledom/home)
+- [Battledom](https://sanderfrenken.github.io/battledom-site/)
 - [Herodom](https://sites.google.com/view/herodom/home)
 
 - Do you use MSKTiled in any of your applications? Please extend this list by making a PR!
